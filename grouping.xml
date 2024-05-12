@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" thread-count="5">
+       
+
+    <test name="test">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+        <groups>
+        <run>
+        <include name = "sanity"/>
+        
+        </run>
+        </groups>
+        <classes>
+            <class name="testCase.TC_001_RegistrationTest"/>
+            <class name="testCase.TC_002_LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
