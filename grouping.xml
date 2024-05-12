@@ -15,7 +15,8 @@
         </groups>
         <classes>
             <class name="testCase.TC_001_RegistrationTest"/>
-            <class name="testCase.TC_002_LoginTest"/>
+            <class name="testCase.TC_002_LoginTest"/>c
+            <class name="testCase.TC_004_SearchboxTest"/>
         </classes>
     </test>
 
