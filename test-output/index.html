@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>2 groups</span>
+                    <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">10 methods, 4 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(null, null, null, null, null, null, null)">verify_registration(null, null, null, null, null, null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(john, wick, jw@gmail.com, abc, admin@123, admin@123, Invalid)">verify_registration(john, wick, jw@gmail.com, abc, admin@123, admin@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(123, 456, asdf@gmail.com, 12345678, admin@123, admin@123, Invalid)">verify_registration(123, 456, asdf@gmail.com, 12345678, admin@123, admin@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(parapim, 123, pim@gmail.com, 123456789, admin@123, admin@123, Invalid)">verify_registration(parapim, 123, pim@gmail.com, 123456789, admin@123, admin@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +132,32 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCase.TC_004_SearchboxTest" class="method navigator-link" hash-for-method="verify_search_box">verify_search_box</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(shiuva, , shiva@gmail.com, 123456789, admin@123, admin@123, Invalid)">verify_registration(shiuva, , shiva@gmail.com, 123456789, admin@123, admin@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(para, pim, asdfc, 123456789, admin@123, admin@123, Invalid)">verify_registration(para, pim, asdfc, 123456789, admin@123, admin@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(shiva, sh, shiva@gmail.com, 123456789, admin, admin@123, Invalid)">verify_registration(shiva, sh, shiva@gmail.com, 123456789, admin, admin@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(, shuva, shiva@gmail.com123456789, , admin@123, admin@123, Invalid)">verify_registration(, shuva, shiva@gmail.com123456789, , admin@123, admin@123, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(shivateja, pulabala, shiva222@gmail.com, 123456, admin@123, admin@123, Valid)">verify_registration(shivateja, pulabala, shiva222@gmail.com, 123456, admin@123, admin@123, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCase.TC_005_RegistrationDDTest" class="method navigator-link" hash-for-method="verify_registration(, , , , , , Invalid)">verify_registration(, , , , , , Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -118,17 +172,118 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCase.TC_004_SearchboxTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">testCase.TC_005_RegistrationDDTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_search_box">
-                  </a> <!-- verify_search_box -->
-                  <span class="method-name">verify_search_box</span>
+                  <a name="verify_registration(null, null, null, null, null, null, null)">
+                  </a> <!-- verify_registration(null, null, null, null, null, null, null) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(null,null,null,null,null,null,null)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCase.TC_005_RegistrationDDTest.verify_registration(TC_005_RegistrationDDTest.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration(john, wick, jw@gmail.com, abc, admin@123, admin@123, Invalid)">
+                  </a> <!-- verify_registration(john, wick, jw@gmail.com, abc, admin@123, admin@123, Invalid) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(john,wick,jw@gmail.com,abc,admin@123,admin@123,Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCase.TC_005_RegistrationDDTest.verify_registration(TC_005_RegistrationDDTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration(123, 456, asdf@gmail.com, 12345678, admin@123, admin@123, Invalid)">
+                  </a> <!-- verify_registration(123, 456, asdf@gmail.com, 12345678, admin@123, admin@123, Invalid) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(123,456,asdf@gmail.com,12345678,admin@123,admin@123,Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCase.TC_005_RegistrationDDTest.verify_registration(TC_005_RegistrationDDTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration(parapim, 123, pim@gmail.com, 123456789, admin@123, admin@123, Invalid)">
+                  </a> <!-- verify_registration(parapim, 123, pim@gmail.com, 123456789, admin@123, admin@123, Invalid) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(parapim,123,pim@gmail.com,123456789,admin@123,admin@123,Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCase.TC_005_RegistrationDDTest.verify_registration(TC_005_RegistrationDDTest.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCase.TC_005_RegistrationDDTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration(shiuva, , shiva@gmail.com, 123456789, admin@123, admin@123, Invalid)">
+                  </a> <!-- verify_registration(shiuva, , shiva@gmail.com, 123456789, admin@123, admin@123, Invalid) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(shiuva,,shiva@gmail.com,123456789,admin@123,admin@123,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration(para, pim, asdfc, 123456789, admin@123, admin@123, Invalid)">
+                  </a> <!-- verify_registration(para, pim, asdfc, 123456789, admin@123, admin@123, Invalid) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(para,pim,asdfc,123456789,admin@123,admin@123,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration(shiva, sh, shiva@gmail.com, 123456789, admin, admin@123, Invalid)">
+                  </a> <!-- verify_registration(shiva, sh, shiva@gmail.com, 123456789, admin, admin@123, Invalid) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(shiva,sh,shiva@gmail.com,123456789,admin,admin@123,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration(, shuva, shiva@gmail.com123456789, , admin@123, admin@123, Invalid)">
+                  </a> <!-- verify_registration(, shuva, shiva@gmail.com123456789, , admin@123, admin@123, Invalid) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(,shuva,shiva@gmail.com123456789,,admin@123,admin@123,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration(shivateja, pulabala, shiva222@gmail.com, 123456, admin@123, admin@123, Valid)">
+                  </a> <!-- verify_registration(shivateja, pulabala, shiva222@gmail.com, 123456, admin@123, admin@123, Valid) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(shivateja,pulabala,shiva222@gmail.com,123456,admin@123,admin@123,Valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_registration(, , , , , , Invalid)">
+                  </a> <!-- verify_registration(, , , , , , Invalid) -->
+                  <span class="method-name">verify_registration</span>
+                  <span class="parameters">(,,,,,,Invalid)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,7 +305,7 @@
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCase.TC_004_SearchboxTest&quot;/&gt;
+      &lt;class name=&quot;testCase.TC_005_RegistrationDDTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -174,22 +329,6 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">master</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">verify_search_box</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
-              <span class="test-group-name">sanity</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">verify_search_box</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -206,16 +345,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_search_box')
-data.setCell(0, 2, 'testCase.TC_004_SearchboxTest')
-data.setCell(0, 3, 211);
+data.setCell(0, 1, 'verify_registration')
+data.setCell(0, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(0, 3, 11860);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_registration')
+data.setCell(1, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(1, 3, 11743);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_registration')
+data.setCell(2, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(2, 3, 11710);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_registration')
+data.setCell(3, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(3, 3, 11654);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_registration')
+data.setCell(4, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(4, 3, 11549);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_registration')
+data.setCell(5, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(5, 3, 5490);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verify_registration')
+data.setCell(6, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(6, 3, 5036);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verify_registration')
+data.setCell(7, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(7, 3, 4870);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_registration')
+data.setCell(8, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(8, 3, 4608);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_registration')
+data.setCell(9, 2, 'testCase.TC_005_RegistrationDDTest')
+data.setCell(9, 3, 1249);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 211 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -241,18 +416,62 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCase.TC_004_SearchboxTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCase.TC_005_RegistrationDDTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">verify_search_box</span>
-                <span class="method-start">6261 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_registration(null, null, null, null, null, null, null)</span>
+                <span class="method-start">39180 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_registration(shivateja, pulabala, shiva222@gmail.com, 123456, admin@123, admin@123, Valid)</span>
+                <span class="method-start">40600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_registration(john, wick, jw@gmail.com, abc, admin@123, admin@123, Invalid)</span>
+                <span class="method-start">46092 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_registration(123, 456, asdf@gmail.com, 12345678, admin@123, admin@123, Invalid)</span>
+                <span class="method-start">51147 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_registration(para, pim, asdfc, 123456789, admin@123, admin@123, Invalid)</span>
+                <span class="method-start">55916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_registration(parapim, 123, pim@gmail.com, 123456789, admin@123, admin@123, Invalid)</span>
+                <span class="method-start">67465 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_registration(shiuva, , shiva@gmail.com, 123456789, admin@123, admin@123, Invalid)</span>
+                <span class="method-start">72697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_registration(, shuva, shiva@gmail.com123456789, , admin@123, admin@123, Invalid)</span>
+                <span class="method-start">84562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_registration(, , , , , , Invalid)</span>
+                <span class="method-start">96288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_registration(shiva, sh, shiva@gmail.com, 123456789, admin, admin@123, Invalid)</span>
+                <span class="method-start">108036 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6489 ms</span>
+                <span class="method-start">119696 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

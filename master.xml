@@ -11,8 +11,9 @@
     <classes>
      <!--  <class name="testCase.TC_001_RegistrationTest"/>
        <class name="testCase.TC_002_LoginTest"/>
-       <class name="testCase.TC_003_LogindatadrivenTest"/> -->
-        <class name="testCase.TC_004_SearchboxTest"/>
+       <class name="testCase.TC_003_LogindatadrivenTest"/> 
+        <class name="testCase.TC_004_SearchboxTest"/> -->
+        <class name = "testCase.TC_005_RegistrationDDTest"/>
     </classes>
   </test> 
  

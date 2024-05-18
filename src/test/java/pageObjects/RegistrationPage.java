@@ -42,6 +42,9 @@ public class RegistrationPage extends BasePage{
     @FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
     WebElement msgConfirmation;
     
+    @FindBy(xpath = "//a[@class='list-group-item'][normalize-space()='Logout']")
+    WebElement btn_Logout;
+    
     
     public void setFirstName(String fname)
     {
@@ -77,6 +80,13 @@ public class RegistrationPage extends BasePage{
     	wait.until(ExpectedConditions.elementToBeClickable(btn_continue));
     	btn_continue.click();
     
+    }
+    public void Logout()
+    {
+
+    	WebDriverWait wait = new WebDriverWait(driver , Duration.ofSeconds(10));
+    	wait.until(ExpectedConditions.elementToBeClickable(btn_Logout));
+    	btn_Logout.click();
     }
     public String getConfirmationMsg()
     {
